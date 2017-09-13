@@ -1,0 +1,18 @@
+{
+	"ctlport"	: 4443,
+	"dataport"	: 4444,
+	"servers"	: [
+		{
+			"id"	: "demo1",
+			"pwd"	: "test1",
+			"ctlpwd": "test1",
+			"ports"	: [22, 80, 8080]
+		},
+		{
+			"id"	: "demo2",
+			"pwd"	: "test2",
+			"ctlpwd": "test2",
+			"ports"	: [443, 8888]
+		}
+	]
+}
