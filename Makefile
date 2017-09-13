@@ -8,14 +8,17 @@ all: PowerPortd PowerPorts PowerPortc
 clean:
 	go clean -i -r ./
 
-PowerPortd:
-	go install PowerPortd
+PowerPortd: simplejson
+	go install main/PowerPortd
 
 PowerPorts:
-	go install PowerPorts
+	go install main/PowerPorts
 
 PowerPortc:
-	go install PowerPortc
+	go install main/PowerPortc
+
+simplejson:
+	go get github.com/bitly/go-simplejson
 
 install:
 

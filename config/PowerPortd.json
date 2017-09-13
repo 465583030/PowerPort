@@ -1,7 +1,10 @@
 {
-	"ctlport"	: 4443,
-	"dataport"	: 4444,
-	"servers"	: [
+	"ctllisten"		: ":4443",
+	"datalisten"	: ":4444",
+	"adminlisten"	: ":4445",
+	"crtpath"		: "certs/powerport.crt",
+	"keypath"		: "certs/powerport.key",
+	"servers"		: [
 		{
 			"id"	: "demo1",
 			"pwd"	: "test1",
